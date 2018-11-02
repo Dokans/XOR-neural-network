@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOR_winform", "XOR_winform\XOR_winform.csproj", "{0DAE8CFE-79DC-4FB6-9310-F753206C81A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neural Network", "..\Neural Network\Neural Network\Neural Network.csproj", "{0C2F589F-3630-4571-9E54-7CED8A81BAC6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0DAE8CFE-79DC-4FB6-9310-F753206C81A5} = {0DAE8CFE-79DC-4FB6-9310-F753206C81A5}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

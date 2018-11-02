@@ -233,7 +233,12 @@ namespace Neural_Network
 
         public static Matrix operator *(Matrix a, Matrix b)
         {
-            return null;
+            return Matrix.Multiply(a, b);
+        }
+
+        public static Matrix operator *(Matrix a, double scalar)
+        {
+            return a.Multiply(scalar);
         }
     }
 }
